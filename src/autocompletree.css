@@ -1,0 +1,105 @@
+/**
+ *
+ * AutoCompleTree
+ *
+ * Author : Burak Kaya - https://github.com/yesilfasulye
+ * License: MIT
+ *
+ */
+
+.o-autocompletree {
+    background-color: #fff;
+    border:1px solid #CAD1D8;
+    border-radius: 4px;
+    position: relative;
+    padding: 8px;
+}
+
+.o-autocompletree__form {
+    display: inline-block;
+    position: relative;
+}
+
+.o-autocompletree__input {
+    background: none;
+    border:0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.o-autocompletree__input:focus{
+    outline: none;
+}
+
+.o-autocompletree__tag-list {
+    float: left;
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+.o-autocompletree__tag {
+    border-radius: 3px;
+    color: #445870;
+    display: inline-block;
+    padding: 2px 4px;
+}
+
+.o-autocompletree__tag + .o-autocompletree__tag{
+    margin-left:1px;
+}
+
+.o-autocompletree__tag--selected{
+    background-color:#FFE3E8;
+    color:#E94764;
+}
+
+.o-autocompletree__suggestion-list:empty{
+    display: none;
+}
+
+.o-autocompletree__suggestion-list {
+    background-color: #fff;
+    border: 1px solid #CAD1D8;
+    box-shadow: 0 3px 8px rgba(0,0,0,.15);
+    border-radius: 4px;
+    min-width:200px;
+    overflow:hidden;
+    position: absolute;
+    left:0;
+    top:100%;
+    z-index:99;
+}
+
+.o-autocompletree__suggestion,
+.o-autocompletree__no-suggestion {
+    color: #445870;
+    display: block;
+    min-height:40px;
+    padding:8px 18px;
+    text-decoration: none;
+}
+
+.o-autocompletree__no-suggestion{
+    color:#E94764;
+}
+
+.o-autocompletree__suggestion:hover{
+    background-color: #F6F7F9;
+    color: #864BC9;
+}
+
+.o-autocompletree__suggestion[aria-selected="true"],
+.o-autocompletree__suggestion[aria-selected="true"]:hover,
+.o-autocompletree__suggestion:focus{
+    background-color: #F6F7F9;
+    color: #864BC9;
+}
+
+.o-autocompletree__suggestion[aria-selected="true"]:active,
+.o-autocompletree__suggestion:active {
+    background-color:#E2C8FF;
+    color:#864BC9;
+}

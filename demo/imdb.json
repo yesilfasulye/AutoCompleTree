@@ -1,0 +1,79 @@
+{
+	"Movies": {
+		"Top Rated":{
+			"Watched":{
+				"2000s": {
+					"Action": {
+						"The Dark Knight": true,
+						"Sicario": false,
+						"Inception": true
+					},
+					"Drama": {
+						"City of God": true,
+						"Interstellar": true
+					}
+				},
+				"1990s": {
+					"Action": {
+						"Pulp Fiction": true
+					}
+                },
+                "1980s": false,
+                "1970s": false,
+                "1960s": false
+			},
+			"Watch List":{
+				"2000s": {
+					"Action": {
+						"Snatch": true,
+						"Batman Begins": true
+					},
+					"Drama": {
+						"The Hunt":true,
+						"A Separation":true
+					}
+				},
+				"1990s": {
+					"Action": {
+						"Unforgiven": true
+					}
+				}
+			}
+		},
+		"In Theaters":{
+			"Action": {
+				"Jurassic World" : true,
+				"Ocean's 8": true
+			},
+			"Drama": {
+				"Boundaries":true
+			},
+			"Comedy": {
+				"Incredibles 2":true
+			}
+		},
+		"Coming Soon":{
+			"2018": {
+				"Action": {
+					"Sicario":true,
+					"The First Purge":true
+				}
+			},
+			"2019":{
+				"Action": {
+					"Avengers":true
+				}
+			},
+			"2020":{
+				"Action": {
+					"Avengers":true
+				}
+			}
+		}
+	},
+	"TV Shows": {
+		"Westworld":true,
+		"Game of Thrones": true,
+		"Bron||Broen":true
+	}
+}

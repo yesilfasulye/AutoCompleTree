@@ -100,13 +100,13 @@ When you focus on the input, the suggestion list will show up, then you can:
 - Press `BACKSPACE` to select last item. When the last item is selected, press `TAB` to deselect or press `BACKSPACE` again to delete it.
 
 ## Instance Methods
-AutoComplete instance has following methods:
+AutoCompleTree instance has following methods:
 
 | Method | Description |
 | ------ | ------ |
 | show | Show suggestions. |
 | hide | Hide suggestions. |
-| destroy | Destroy autocomplete instance. All events are detached and suggestion containers removed. |
+| destroy | Destroy autocompletree instance. All events are detached and suggestion containers removed. |
 | getData | Return a string of selected data that joined by ‘.’ |
 | getSuggestions | Return a string array of current suggestions |
 | getLastSelected | Return last selected item  |
